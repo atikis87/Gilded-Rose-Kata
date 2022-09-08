@@ -1,0 +1,36 @@
+
+{
+  "name": "gilded-rose",
+  "version": "1.0.0",
+  "description": "Gilded Rose Kata",
+  "type": "module",
+  "main": "GildedRose.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test--coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "test--watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atikis87/Gilded-Rose-Kata.git"
+  },
+  "author": "Attila Kiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atikis87/Gilded-Rose-Kata/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.12.0"
+  },
+  "homepage": "https://github.com/atikis87/Gilded-Rose-Kata#readme"
+}
